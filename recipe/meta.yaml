@@ -1,6 +1,6 @@
 {% set name = "staircase" %}
-{% set version = "2.6.0" %}
-{% set sha = "91804af04f1566463eeb336f9109ceae330d93d7361570d32f934cbbbb5aec6e" %}
+{% set version = "2.7.0" %}
+{% set sha = "3df0f3b012c041375303915ff89fb444d2e1db369e4e0038e51e1188eeecbf9a" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha }}
 
 build:
