@@ -23,8 +23,8 @@ requirements:
     - poetry
   run:
     - matplotlib-base >3.0.0,<4
-    - numpy >=1.16.0,<3
-    - pandas >=1,<3
+    - numpy >=1.21.2,<3
+    - pandas >=2,<4
     - python >={{ python_min }},<4
     - typing-extensions >=4.4.0
     - pytz
